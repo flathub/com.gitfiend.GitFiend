@@ -26,7 +26,7 @@
   </description>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LicenseRef-proprietary</project_license>
-  <content_rating type="oars-1.1" />
+  <content_rating type="oars-1.1"/>
   <categories>
     <category>Development</category>
     <category>RevisionControl</category>
@@ -40,33 +40,34 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="0.39.4" date="2023-02-10" />
-    <release version="0.38.3" date="2022-10-19" />
-    <release version="0.37.2" date="2022-10-01" />
-    <release version="0.36" date="2022-08-27" />
-    <release version="0.35.3" date="2022-07-31" />
-    <release version="0.34.0" date="2022-05-13" />
-    <release version="0.33.0" date="2022-05-09" />
-    <release version="0.32.0" date="2022-01-30" />
-    <release version="0.31.0" date="2022-01-15" />
-    <release version="0.30.1" date="2021-12-16" />
-    <release version="0.29" date="2021-09-27" />
-    <release version="0.28" date="2021-07-25" />
-    <release version="0.27" date="2021-06-20" />
-    <release version="0.26" date="2021-03-20" />
-    <release version="0.25" date="2021-02-14" />
-    <release version="0.24" date="2020-07-05" />
-    <release version="0.23" date="2020-05-10" />
-    <release version="0.22.8" date="2020-03-15" />
-    <release version="0.22.6" date="2020-03-06" />
-    <release version="0.22" date="2020-03-05" />
-    <release version="0.21" date="2019-12-26" />
-    <release version="0.20" date="2019-10-13" />
-    <release version="0.19.5" date="2019-08-21" />
-    <release version="0.19.2" date="2019-07-20" />
-    <release version="0.19" date="2019-07-04" />
-    <release version="0.18" date="2019-05-26" />
-    <release version="0.17" date="2019-04-29" />
+    <release version="0.40.6" date="2023-04-25"/>
+    <release version="0.39.4" date="2023-02-10"/>
+    <release version="0.38.3" date="2022-10-19"/>
+    <release version="0.37.2" date="2022-10-01"/>
+    <release version="0.36" date="2022-08-27"/>
+    <release version="0.35.3" date="2022-07-31"/>
+    <release version="0.34.0" date="2022-05-13"/>
+    <release version="0.33.0" date="2022-05-09"/>
+    <release version="0.32.0" date="2022-01-30"/>
+    <release version="0.31.0" date="2022-01-15"/>
+    <release version="0.30.1" date="2021-12-16"/>
+    <release version="0.29" date="2021-09-27"/>
+    <release version="0.28" date="2021-07-25"/>
+    <release version="0.27" date="2021-06-20"/>
+    <release version="0.26" date="2021-03-20"/>
+    <release version="0.25" date="2021-02-14"/>
+    <release version="0.24" date="2020-07-05"/>
+    <release version="0.23" date="2020-05-10"/>
+    <release version="0.22.8" date="2020-03-15"/>
+    <release version="0.22.6" date="2020-03-06"/>
+    <release version="0.22" date="2020-03-05"/>
+    <release version="0.21" date="2019-12-26"/>
+    <release version="0.20" date="2019-10-13"/>
+    <release version="0.19.5" date="2019-08-21"/>
+    <release version="0.19.2" date="2019-07-20"/>
+    <release version="0.19" date="2019-07-04"/>
+    <release version="0.18" date="2019-05-26"/>
+    <release version="0.17" date="2019-04-29"/>
   </releases>
   <developer_name>Toby Suggate</developer_name>
   <launchable type="desktop-id">com.gitfiend.GitFiend.desktop</launchable>
