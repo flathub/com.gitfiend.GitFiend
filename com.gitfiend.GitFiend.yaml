@@ -16,15 +16,6 @@ finish-args:
   - --share=network
   - --device=dri
 modules:
-  - name: unappimage
-    buildsystem: simple
-    build-commands:
-      - make -C squashfs-tools -j ${FLATPAK_BUILDER_N_JOBS} install INSTALL_DIR=${FLATPAK_DEST}/bin
-    sources:
-      - type: git
-        url: https://github.com/refi64/unappimage
-        commit: d7f86f2a0d7ec3a69211125207d5f127386b849a
-
   - name: gitfiend
     buildsystem: simple
     build-commands:
@@ -51,7 +42,9 @@ modules:
       - type: script
         dest-filename: apply_extra
         commands:
-          - unappimage -no-progress -dest GitFiend GitFiend.AppImage
+          - chmod +x GitFiend.AppImage
+          - ./GitFiend.AppImage --appimage-extract
+          - mv squashfs-root GitFiend
           - rm -rf GitFiend/{usr,AppRun,.DirIcon,gitfiend.png,gitfiend.desktop}
           - rm GitFiend.AppImage
 
