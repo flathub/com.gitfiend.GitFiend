@@ -1,8 +1,8 @@
 app-id: com.gitfiend.GitFiend
 runtime: org.freedesktop.Sdk
-runtime-version: '22.08'
+runtime-version: '23.08'
 base: org.electronjs.Electron2.BaseApp
-base-version: '22.08'
+base-version: '23.08'
 sdk: org.freedesktop.Sdk
 command: gitfiend
 tags:
@@ -57,9 +57,9 @@ modules:
 
       - type: extra-data
         filename: GitFiend.AppImage
-        url: https://gitfiend.com/resources/GitFiend-0.42.1.AppImage
-        size: 100535654
-        sha256: c58344a20c0d1ffa33a1a8595e4b37af5861f0ce79a3e47bd3ba71012c58be61
+        url: https://gitfiend.com/resources/GitFiend-0.44.2.AppImage
+        size: 101924582
+        sha256: 056c7bab2d33a2cca65062d15e0dcc5a4c9715a3114ba314f26fe759e8230898
         x-checker-data:
           type: html
           url: https://gitfiend.com/output/index.js
@@ -70,9 +70,9 @@ modules:
 
       - type: extra-data
         filename: GitFiend.AppImage
-        url: https://gitfiend.com/resources/GitFiend-0.42.1-arm64.AppImage
-        size: 101266174
-        sha256: f1d34327aea6a16d555f60da62b600dd35bfe6036c8e5be5dbeb80487cfbad96
+        url: https://gitfiend.com/resources/GitFiend-0.44.2-arm64.AppImage
+        size: 102553942
+        sha256: 658450a4cdf7161398d04fd575896e7f7d699566739394d9f3835e0501345f9f
         x-checker-data:
           type: html
           url: https://gitfiend.com/output/index.js
