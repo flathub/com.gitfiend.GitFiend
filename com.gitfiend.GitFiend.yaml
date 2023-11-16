@@ -60,11 +60,11 @@ modules:
         url: https://gitfiend.com/resources/GitFiend-0.44.2.AppImage
         size: 101924582
         sha256: 056c7bab2d33a2cca65062d15e0dcc5a4c9715a3114ba314f26fe759e8230898
-        x-checker-data:
-          type: html
-          url: https://gitfiend.com/output/index.js
-          version-pattern: makeUrlsForVersion\("([\d\.]+)"\)
-          url-template: https://gitfiend.com/resources/GitFiend-${version}.AppImage
+        # x-checker-data:
+        #   type: html
+        #   url: https://gitfiend.com/output/index.js
+        #   version-pattern: makeUrlsForVersion\("([\d\.]+)"\)
+        #   url-template: https://gitfiend.com/resources/GitFiend-${version}.AppImage
         only-arches:
           - x86_64
 
@@ -73,10 +73,10 @@ modules:
         url: https://gitfiend.com/resources/GitFiend-0.44.2-arm64.AppImage
         size: 102553942
         sha256: 658450a4cdf7161398d04fd575896e7f7d699566739394d9f3835e0501345f9f
-        x-checker-data:
-          type: html
-          url: https://gitfiend.com/output/index.js
-          version-pattern: makeUrlsForVersion\("([\d\.]+)"\)
-          url-template: https://gitfiend.com/resources/GitFiend-${version}-arm64.AppImage
+        # x-checker-data:
+        #   type: html
+        #   url: https://gitfiend.com/output/index.js
+        #   version-pattern: makeUrlsForVersion\("([\d\.]+)"\)
+        #   url-template: https://gitfiend.com/resources/GitFiend-${version}-arm64.AppImage
         only-arches:
           - aarch64
