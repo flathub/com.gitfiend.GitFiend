@@ -57,9 +57,9 @@ modules:
 
       - type: extra-data
         filename: GitFiend.AppImage
-        url: https://gitfiend.com/resources/GitFiend-0.44.2.AppImage
-        size: 101924582
-        sha256: 056c7bab2d33a2cca65062d15e0dcc5a4c9715a3114ba314f26fe759e8230898
+        url: https://gitfiend.com/resources/GitFiend-0.44.3.AppImage
+        size: 101924809
+        sha256: 068a0eefbc48afa0d9f51e8d7dd067e81966ffcd3bb4a18fe34c191f532ce736
         # x-checker-data:
         #   type: html
         #   url: https://gitfiend.com/output/index.js
@@ -70,9 +70,9 @@ modules:
 
       - type: extra-data
         filename: GitFiend.AppImage
-        url: https://gitfiend.com/resources/GitFiend-0.44.2-arm64.AppImage
-        size: 102553942
-        sha256: 658450a4cdf7161398d04fd575896e7f7d699566739394d9f3835e0501345f9f
+        url: https://gitfiend.com/resources/GitFiend-0.44.3-arm64.AppImage
+        size: 102554176
+        sha256: 66add50f686554efb91dd75ae1632fc463755db9c2ddc631b0cc00a6e5f7b9d9
         # x-checker-data:
         #   type: html
         #   url: https://gitfiend.com/output/index.js
