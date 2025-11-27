@@ -76,4 +76,11 @@
   </releases>
   <developer_name>Toby Suggate</developer_name>
   <launchable type="desktop-id">com.gitfiend.GitFiend.desktop</launchable>
+  <keywords>
+    <keyword>git client</keyword>
+    <keyword>git tool</keyword>
+    <keyword>version control</keyword>
+    <keyword>repository management</keyword>
+    <keyword>source code management</keyword>
+  </keywords>
 </component>
