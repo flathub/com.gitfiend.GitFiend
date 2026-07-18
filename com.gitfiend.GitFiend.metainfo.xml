@@ -4,7 +4,6 @@
   <name>GitFiend</name>
   <summary>A Git client designed for humans</summary>
   <description>
-    <p>**This is a community package of GitFiend and not officially supported by Toby Suggate.**</p>
     <p>Here's where GitFiends at feature-wise and what's coming up next.</p>
     <ul>
       <li>Git basics: Instant refresh, glance-able overview of repo state, clone, init, fetch,
